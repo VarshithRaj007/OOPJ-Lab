@@ -34,7 +34,7 @@ class mimi
             double x4 = -b/(2*a);
             double comp = Math.sqrt(-disc)/(2*a);
             System.out.println("The roots are Complex");
-            System.out.println("The roots are:\nroot_1 = "+x4+"+i"+comp+"\nroot_2 ="+x4+"+i"+comp);
+            System.out.println("The roots are:\nroot_1 = "+x4+"+i"+comp+"\nroot_2 ="+x4+"-i"+comp);
         }
      }
 }
